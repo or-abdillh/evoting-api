@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const mysql = require('./connection')
 const bodyParser = require('body-parser')
 const PORT = 8080;
 
